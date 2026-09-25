@@ -1,0 +1,28 @@
+# Sistema de Flores
+
+Projeto desenvolvido para a disciplina de Programação e Desenvolvimento de Aplicações.
+
+## Sobre o projeto
+
+O sistema tem como objetivo auxiliar no cadastro e gerenciamento de flores, permitindo consultar informações, preços e realizar orçamentos de compra.
+
+## Funcionalidades
+
+- Cadastrar flores
+- Listar flores
+- Pesquisar flores
+- Alterar informações
+- Consultar preços
+- Realizar orçamento
+- Consultar orçamentos
+- Encerrar o sistema
+
+## Integrantes
+
+- Tamires
+- Bruna
+- Eduardo
+
+## Documentação
+
+A documentação completa do projeto está disponível no arquivo `Projeto_Sistema_de_Flores-Tamires.pdf`.
