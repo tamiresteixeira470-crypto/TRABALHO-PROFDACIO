@@ -47,7 +47,7 @@ int main() {
         printf("Escolha uma opcao: ");
         
         if (scanf("%d", &opcao) != 1) {
-            // Se o usuário digitar alguma letra por engano, limpa o erro para travar a "dança"
+            
             printf("Entrada invalida! Digite apenas numeros.\n");
             while (getchar() != '\n');
             continue;
