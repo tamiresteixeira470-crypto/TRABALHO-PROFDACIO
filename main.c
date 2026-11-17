@@ -1,7 +1,28 @@
-#include "flores.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 int main() {
-    int opcao;
+    char nomes[6][40] = {
+        "Corredor da igreja", 
+        "Altar da igreja", 
+        "Buque da noiva",
+        "Mesas - arranjos altos", 
+        "Mesas - arranjos baixos",
+        "Mesa de doces"
+    };
+    
+    int quantidades[6] = {0};
+    float precos[6] = {0.0};
+    float custos[6] = {0.0};
+
+    char contrato[100];
+    float valorContrato = 0.0;
+    float percentualFlores = 0.0;
+    float orcamentoFlores = 0.0;
+    float custoTotal = 0.0;
+    
+    int i, opcao;
 
     printf("=== GRUPO LOTUS DECORACOES - ORCAMENTO DE FLORES ===\n\n");
     
@@ -26,11 +47,13 @@ int main() {
         printf("Escolha uma opcao: ");
         
         if (scanf("%d", &opcao) != 1) {
+            
             printf("Entrada invalida! Digite apenas numeros.\n");
             while (getchar() != '\n');
             continue;
         }
- switch (opcao) {
+
+        switch (opcao) {
             case 1:
                 printf("\n--- CADASTRO DOS 6 GRUPOS DE FLORES ---\n");
                 custoTotal = 0.0;
@@ -94,4 +117,4 @@ int main() {
 
     return 0;
 }
-       
+   
